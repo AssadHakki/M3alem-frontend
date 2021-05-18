@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactez nous</title>
+    <title>Connexion</title>
 
     <!-- Style -->
-    <link rel="stylesheet" href="./Contact.css">
+    <link rel="stylesheet" href="./Login.css">
 
     <!-- Google font  -->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -39,9 +39,8 @@
       <nav id="nav">
         <ul>
           <li><a href="./../index.html">Acceuil</a></li>
-          <li><a href="./../About/About.html">Qui sommes-nous ?</a></li>
           <li><a href="./../Prestataires/Prestataires.html">Prestataires</a></li>
-          <li><a href="./../Login/Login.html">Connexion</a></li>
+          <li><a href="./Login.html">Connexion</a></li>
           <li><a href="./../Register/Register.html">Inscription</a></li>
         </ul>
       </nav>
@@ -51,35 +50,37 @@
 
 
     <div class="fcf-body">
+        
         <div id="fcf-form">
-        <h2 class="fcf-h3">CONTACTEZ NOUS</h2>
+        <center><img class="login-hero" src="./../Assets/Images/about-hero.png" ></center>
+        
+        <div class="separator"></div>
 
         <form id="fcf-form-id" class="fcf-form-class" method="post" action="">
             
+           
             <div class="fcf-form-group">
-                <label for="Name" class="fcf-label">Votre nom : </label>
                 <div class="fcf-input-group">
-                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" placeholder="Email" required>
                 </div>
             </div>
 
             <div class="fcf-form-group">
-                <label for="Email" class="fcf-label">Votre email :</label>
                 <div class="fcf-input-group">
-                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    <input type="password" id="password" name="password" class="fcf-form-control" placeholder="Mot de passe" required>
                 </div>
             </div>
 
             <div class="fcf-form-group">
-                <label for="Message" class="fcf-label">Votre message :</label>
-                <div class="fcf-input-group">
-                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                </div>
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">SE CONNECTER</button>
             </div>
 
             <div class="fcf-form-group">
-                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Envoyer le message</button>
-            </div>
+              <a id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" href="./../Register/Register.html">S'INSCRIRE</a>
+          </div>
+
+            <a class="forgotten-btn" href="#">Mot de passe oublié ?</a>
+
         </form>
         </div>
     </div>
@@ -101,9 +102,10 @@
           <h2>LIENS UTILES</h2>
           <ul>
             <li><a href="./../index.html">Acceuil</a></li>
+            <li><a href="./../About/About.html">Qui sommes-nous ?</a></li>
             <li><a href="./../Prestataires/Prestataires.html">Prestataires</a></li>
             <li><a href="./../About/About.html">Qui sommes nous?</a></li>
-            <li><a href="./Contact.html">Contactez nous</a></li>
+            <li><a href="./../Contact/Contact.html">Contactez nous</a></li>
           </ul>
         </div>
         <div class="footer-top-items">

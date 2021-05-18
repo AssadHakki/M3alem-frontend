@@ -166,8 +166,8 @@ footer{
 #fcf-form {
     display:block;
     background-color: #244E86;
-    width: 800px;
-    border: #fff952 1px solid;
+    width: 400px;
+    border: #faf67b 1px solid;
     border-radius: 8px;
     padding: 20px;
 }
@@ -185,9 +185,7 @@ footer{
     max-width: 100%;
 }
 
-.fcf-h3{
-    color:#faf67b;
-}
+
 .fcf-form-group {
     margin-bottom: 1rem;
 }
@@ -202,7 +200,9 @@ footer{
     align-items: stretch;
     width: 100%;
 }
-
+#fcf-button{
+    text-decoration: none;
+}
 .fcf-form-control {
     display: block;
     width: 100%;
@@ -220,6 +220,17 @@ footer{
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.forgotten-btn{
+    text-decoration: none;
+    font-size: 15px;
+    color: #faf67b;
+}
+.forgotten-btn:hover{
+    text-decoration:underline;
+    color: #fff952;
+
+}
+
 .fcf-form-control:focus {
     border: 1px solid #313131;
 }
@@ -233,26 +244,8 @@ textarea.fcf-form-control {
     height: auto;
 }
 
-label.fcf-label {
-    display: inline-block;
-    margin-bottom: 0.5rem;
-}
 
-.fcf-credit {
-    padding-top: 10px;
-    font-size: 0.9rem;
-    color: #545b62;
-}
 
-.fcf-credit a {
-    color: #545b62;
-    text-decoration: underline;
-}
-
-.fcf-credit a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
 
 .fcf-btn {
     display: inline-block;
@@ -278,7 +271,6 @@ label.fcf-label {
     .fcf-btn {
         transition: none;
     }
-  
 }
 
 .fcf-btn:hover {
@@ -295,7 +287,12 @@ label.fcf-label {
     color: #faf67b;
     border-color: #fff952;
 }
-
+.login-hero{
+    width: 300px;
+    padding: 10px 10px 20px;
+    margin-bottom: 20px;
+    border-bottom: #faf67b6b 1px solid;
+}
 .fcf-btn-primary:hover {
     color: #244E86;
     background-color: #faf67b;
@@ -329,10 +326,3 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 
-
-@media (max-width: 991px) {
-
-    .fcf-body{
-        padding: 100px 0px;
-    }
-}

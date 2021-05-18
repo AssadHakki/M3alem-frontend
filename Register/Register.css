@@ -149,6 +149,7 @@ footer{
 /* FOOTER END */
 
 
+
 .background-image
 {
     width: 100%; 
@@ -158,4 +159,131 @@ footer{
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
+}
+
+
+.register-container{
+    margin: 100px auto;
+    
+}
+
+.register-header{
+    text-align: center;
+    padding: 10px;
+    background-color: #faf67b;
+    color: #244E86;
+}
+
+.register-header h2{
+    text-transform: uppercase;
+}
+
+.register-header h3{
+    font-weight: 400;
+}
+
+.register-form-hero{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #244E86;
+    color: #faf67b;
+}
+ 
+
+.register-form{
+    padding: 80px 0  ;
+    width: 500px;
+}
+
+
+
+.input-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.input-form label{
+    width: 180px;
+    font-weight: 100;
+}
+
+.input-form textarea{
+    width: 300px;
+    border: 1px solid #fff952;
+    border-radius: 8px;
+}
+.input-form input, select {
+    width: 300px;
+    height: 29px;
+    border: 1px solid #fff952;
+    border-radius: 8px;
+}
+
+.register-btn-div{
+ text-align: center;
+}
+
+.register-btn{
+    width: 500px;
+    height: 45px;
+    border: 1px solid #fff952;
+    border-radius: 8px;
+    background-color: #244E86;
+    color: #fbf775;
+    margin: 30px 0 0 0;
+    padding: 8px ;
+    font-size: 16px;
+}
+.register-btn:hover{
+    background-color: #fff952;
+    color: #244E86;
+}
+
+.login-div{
+    text-align: center;
+    padding: 10px 0 37px;
+    background-color: #faf67b;
+    color: #244E86;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.login-div h2{
+    margin-bottom: 30px;
+}
+
+.login-btn{
+    text-decoration: none;
+    border: 1px solid #fff952;
+    border-radius: 8px;
+    background-color: #244E86;
+    color: #fbf775;
+    margin: 30px 0 0 0;
+    padding: 10px 25px ;
+    font-size: 16px;
+}
+
+.login-btn:hover{
+    border-color:#244E86 ;
+    
+    background-color: #fbf775;
+    color: #244E86;
+  
+}
+
+
+@media (max-width: 991px) {
+
+    .register-form{
+        width: 300px;
+    }
+
+    .register-btn{
+        width: 300px;
+    }
 }

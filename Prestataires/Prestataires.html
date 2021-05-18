@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maalem - Acceuil</title>
+    <title>Prestataires</title>
 
     <!-- Style -->
     <link rel="stylesheet" href="./Prestataires.css">
@@ -45,7 +45,7 @@
     })
 </script> -->
 
-<body>
+<body class="background-image">
 <!-- HEADER BEGIN -->
     <header>
       <div class="toggle-btn" onclick="f1();">
@@ -55,14 +55,15 @@
       </div>
 
       <div class="logo">
-        <a href="./index.html"><img class="header-logo" src="./../Assets/Images/M3alem-Logo.png" alt="M3alem Logo"></a>
+        <a href="./../index.html"><img class="header-logo" src="./../Assets/Images/M3alem-Logo.png" alt="M3alem Logo"></a>
       </div>
       <nav id="nav">
         <ul>
-          <li><a href="#">Acceuil</a></li>
-          <li><a href="#">Prestataires</a></li>
-          <li><a href="#">Connexion</a></li>
-          <li><a href="#">Inscription</a></li>
+          <li><a href="./../index.html">Acceuil</a></li>
+          <li><a href="./../About/About.html">Qui sommes-nous ?</a></li>
+          <li><a href="./Prestataires.html">Prestataires</a></li>
+          <li><a href="./../Login/Login.html">Connexion</a></li>
+          <li><a href="./../Register/Register.html">Inscription</a></li>
         </ul>
       </nav>
     </header>
@@ -71,112 +72,115 @@
 
 
 
+    <div class="search-container" >
+        <h2>Trouvez des prestataires autour de vous !</h2>
+        <div class="search-boxes">
+          <div class="search-profession">
+            <label for="profession"><i class="fa fa-wrench" aria-hidden="true"></i> De quoi avez-vous besoin ? <br></label>
+            <select name="professions" id="professions">
+              <option value="bricolage_petits_travaux">Bricolage-Petits travaux</option>
+              <option value="plomberie">Plomberie</option>
+              <option value="peinture">Peinture</option>
+              <option value="electricite">Électricité</option>
+              <option value="m_bois">Menuiserie de bois</option>
+              <option value="m_aluminium">Menuiserie d'aluminium</option>
+              <option value="soudure_chaudronnerie">Soudure-Chaudronnerie</option>
+              <option value="climatisation_chauffage">Climatisation-Chauffage</option>
+              <option value="maconnerie">Maçonnerie</option>
+              <option value="mecanique">Mécanique</option>
+              <option value="marbre">Marbre</option>
+              <option value="faience_mosaique">Faience mosaïque</option>
+              <option value="rideaux_portes_motorises">Rideaux - portes motorisés</option>
+              <option value="tapisserie">Tapisserie</option>
+              <option value="jardinier">Jardinier</option>
+              <option value="entretien_piscine">Entretien piscine</option>
+              <option value="chauffeur">Chauffeur</option>
+              <option value="electromenager">Réparation électroménager</option>
+              <option value="materiels_electroniques">Réparation matériels électroniques</option>
+              <option value="parabole">Installation parabole</option>
+              <option value="surveillance">Installation caméra de surveillance</option>
+            </select>
+          </div>
+          <div class="search-ville">
+            <label for="ville"><i class="fa fa-map-pin" aria-hidden="true"></i> Où en avez-vous besoin ? <br></label>
+            <select name="villes" id="villes">
+              <option value="casablanca">Casablanca</option>
+              <option value="agadir">Agadir</option>
+              <option value="tanger">Tanger</option>
+            </select>
+          </div>
+          <div class="search-btn">
+            <button id="rechercher" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </div>
+       </div>
+    </div>
+
 
     <div class="cards-container">
         
-        <div class="search-container" >
-            <h2>Trouvez des prestataires autour de vous !</h2>
-
-            <div class="main-search">
-              <div class="search-bar">
-                <div class="search">
-                  <input type="text" class="cls" placeholder="De quoi avez-vous besoin ?" name="Rechercher" >
-                </div>
-              </div>
-              <div class="combo-box">
-                <form action="">
-                  <select class="lbl" name="professions" id="professions">
-                    <option value="All"selected >Tous les services</option>
-                    <option value="Dogs">Dogs</option>
-                    <option value="Cats">Cats</option>
-                    <option value="Birds">Birds</option>
-                    <option value="Fish">Fish</option>
-                  </select>
-                </form>
-              </div>
-              <div class="search-city">
-                <form action="/action_page.php">
-                  <label for="city"></label>
-                  <select class="lbl" name="city" id="city">
-                    <option value="allcity"selected>All Morocco</option>
-                    <option value="casa">Casablanca</option>
-                    <option value="far">Rabat</option>
-                    <option value="kech">Marrakech</option>
-                    <option value="tng">Tanger</option>
-                  </select>
-                </form>
-              </div>
-              <div class="search-submitt">
-                <button class="cl" type="submit"><i class="fa fa-search"></i></button>
-              </div>
-            </div>
-
-        </div>
 
         <div class="father" >
                     
-            <div class="card">
-                <img class="image" src="./../Assets/Images/handyman.jpg">
-                <h2 class="fullname"> Lord Abe</h2>
-                <p class="service">Barman</p>
-                <p class="bio">a7ssan skayri fel 3alam kaml Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                <a href="#">Voir plus</a>
-            </div>
+          <div class="card">
+            <img class="image" src="./../Assets/Images/handyman.jpg">
+            <h2 class="fullname"> Nom Prenom</h2>
+            <p class="service">Profession</p>
+            <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam repellendus dicta, sed odit vitae nam consectetur dolorum sunt.</p>
+            <a href="#">Voir plus</a>
+          </div>
+
+          <div class="card">
+            <img class="image" src="./../Assets/Images/handyman.jpg">
+            <h2 class="fullname"> Nom Prenom</h2>
+            <p class="service">Profession</p>
+            <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam repellendus dicta, sed odit vitae nam consectetur dolorum sunt.</p>
+            <a href="#">Voir plus</a>
+          </div>
+
+          <div class="card">
+            <img class="image" src="./../Assets/Images/handyman.jpg">
+            <h2 class="fullname"> Nom Prenom</h2>
+            <p class="service">Profession</p>
+            <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam repellendus dicta, sed odit vitae nam consectetur dolorum sunt.</p>
+            <a href="#">Voir plus</a>
+          </div>
+
+          <div class="card">
+            <img class="image" src="./../Assets/Images/handyman.jpg">
+            <h2 class="fullname"> Nom Prenom</h2>
+            <p class="service">Profession</p>
+            <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam repellendus dicta, sed odit vitae nam consectetur dolorum sunt.</p>
+            <a href="#">Voir plus</a>
+          </div>
+
+          <div class="card">
+            <img class="image" src="./../Assets/Images/handyman.jpg">
+            <h2 class="fullname"> Nom Prenom</h2>
+            <p class="service">Profession</p>
+            <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam repellendus dicta, sed odit vitae nam consectetur dolorum sunt.</p>
+            <a href="#">Voir plus</a>
+          </div>
+
+          <div class="card">
+            <img class="image" src="./../Assets/Images/handyman.jpg">
+            <h2 class="fullname"> Nom Prenom</h2>
+            <p class="service">Profession</p>
+            <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam repellendus dicta, sed odit vitae nam consectetur dolorum sunt.</p>
+            <a href="#">Voir plus</a>
+          </div>
+
+          <div class="card">
+            <img class="image" src="./../Assets/Images/handyman.jpg">
+            <h2 class="fullname"> Nom Prenom</h2>
+            <p class="service">Profession</p>
+            <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam repellendus dicta, sed odit vitae nam consectetur dolorum sunt.</p>
+            <a href="#">Voir plus</a>
+          </div>
 
 
 
-            <div class="card">
-                <img class="image" src="./../Assets/Images/handyman.jpg">
-                <h2 class="fullname"> Lord Abe</h2>
-                <p class="service">Barman</p>
-                <p class="bio">a7ssan skayri fel 3alam kaml Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                <a href="#">Voir plus</a>
-            </div>
 
-
-
-
-            <div class="card">
-                <img class="image" src="./../Assets/Images/handyman.jpg">
-                <h2 class="fullname"> Lord Abe</h2>
-                <p class="service">Barman</p>
-                <p class="bio">a7ssan skayri fel 3alam kaml Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                <a href="#">Voir plus</a>
-            </div>
-
-
-
-
-            <div class="card">
-                <img class="image" src="./../Assets/Images/handyman.jpg">
-                <h2 class="fullname"> Lord Abe</h2>
-                <p class="service">Barman</p>
-                <p class="bio">a7ssan skayri fel 3alam kaml Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                <a href="#">Voir plus</a>
-            </div>
-
-
-
-
-            <div class="card">
-                <img class="image" src="./../Assets/Images/handyman.jpg">
-                <h2 class="fullname"> Lord Abe</h2>
-                <p class="service">Barman</p>
-                <p class="bio">a7ssan skayri fel 3alam kaml Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                <a href="#">Voir plus</a>
-            </div>
-
-
-
-
-            <div class="card">
-                <img class="image" src="./../Assets/Images/handyman.jpg">
-                <h2 class="fullname"> Lord Abe</h2>
-                <p class="service">Barman</p>
-                <p class="bio">a7ssan skayri fel 3alam kaml Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                <a href="#">Voir plus</a>
-            </div>
-
+           
         </div>    
             
     </div>
