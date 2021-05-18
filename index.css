@@ -170,7 +170,7 @@ footer{
 .home-container{
     width: 100%; 
     height: fit-content;
-    background-image: url(./../Assets/Images/search-background.jpg);
+    background-image: url(./Assets/Images/search-background.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
