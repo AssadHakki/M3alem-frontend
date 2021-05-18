@@ -217,6 +217,7 @@ footer{
     width: 300px;
     border: 1px solid #fff952;
     border-radius: 8px;
+    resize: none;
 }
 .input-form input, select {
     width: 300px;
