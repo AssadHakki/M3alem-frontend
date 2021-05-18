@@ -165,9 +165,14 @@ footer{
 
 /* SEARCH BOXES BEGIN */
 .search-container{
-    background-image: url(./../Assets/Images/search-background.jpg);
+    width: 100%; 
+    height: fit-content;
+    /* background-image: url(./../Assets/Images/search-background.jpg);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;  */
+    background-color: #244e86;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,6 +182,7 @@ footer{
 }
 .search-container h2{
     margin-top: 25px;
+    color: #fbf775;
     text-transform: uppercase;
 }
 .search-boxes{
@@ -201,7 +207,7 @@ footer{
 }
 #professions, #villes{
     height: 33px;
-    width: 330px;
+    width: 310px;
     border-radius: 8px;
     text-transform: uppercase;
 }
@@ -211,6 +217,34 @@ footer{
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.607);
     cursor: pointer;
+}
+
+@media (max-width : 961px){
+    .search-boxes{
+        max-width: 310px;
+    }
+    .search-container h2{
+        text-align: center;
+        padding: 15px 10px;
+   }
+}
+
+
+
+@media (max-width : 500px){
+   .search-container h2{
+        text-align: center;
+        padding: 15px 10px;
+   }
+ 
+    .search-profession, .search-ville, .search-btn{
+        padding: 0;
+        margin: 0;
+    }
+    .search-btn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     
 }
 /* SEARCH BOXES END */
