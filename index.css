@@ -164,7 +164,7 @@ footer{
 
 
 
-/* SEARCH BOXES BEGIN */
+/* TOP MENU BEGIN */
 
 
 .home-container{
@@ -175,7 +175,7 @@ footer{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
-}
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;}
 
 .search-container{
     display: flex;
@@ -183,7 +183,7 @@ footer{
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-    margin: 0 0 100px ;
+    margin: 0 0 200px ;
 
 }
 .search-container h1{
@@ -286,4 +286,182 @@ footer{
     border-color: #244e86;
     transition: 0.5s;
 }
-/* SEARCH BOXES END */
+/* TOP MENU END */
+
+
+
+
+
+/* HOW TO USE BEGIN */
+.use-container{
+    text-align: center;
+    margin-bottom: 200px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;}
+.use-container h1{
+    background-color: #244e86;
+    color: #fbf775;
+    padding: 15px ;
+    margin: 0;
+    font-weight: 500;
+}
+.cherche-propose{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fbf775;
+}
+.je-cherche, .je-propose{
+    width: 391px;  
+    padding: 20px;
+    margin: 0 70px;
+    color: #244e86;
+    transition: all .2s ease-in-out;
+}
+.je-cherche h2, .je-propose h2{
+    border-bottom: solid 1px #244e8620;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.je-cherche p, .je-propose p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.je-cherche:hover, .je-propose:hover{
+    transform: scale(1.04);
+}
+@media (max-width:771px){
+    .je-cherche, .je-propose{
+        margin: 0 10px;
+    }
+}
+/* HOW TO USE END */
+
+
+
+/* RAPID SEARCH BEGIN */
+.rapid-search-container{
+    text-align: center;
+    margin-bottom: 200px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.rapid-search-header{
+    background-color: #244e86;
+    color: #fbf775;
+}
+.rapid-search-header h1{
+    padding: 15px ;
+    margin: 0;
+    font-weight: 500;
+}
+.rapid-search-cards{
+    background-color: #fbf775;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.search-card{
+    color: #244e86;
+    text-align: left;
+    padding: 20px;
+    margin: 10px 20px 20px 20px;
+    width: 300px;
+}
+.search-card h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    border-bottom: 1px solid #013f9621;
+}
+.search-card a{
+    text-decoration: none;
+    color: #013f96;
+    font-weight: 100;
+}
+.search-card a:hover{
+    text-decoration: underline;
+    color: #0b4ead;
+}
+/* RAPID SEARCH END */
+
+
+
+
+/* WHAT WILL YOU LIKE BEGIN */
+.like-container{
+    text-align: center;
+    margin-bottom: 200px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.like-container h1{
+    background-color: #244e86;
+    color: #fbf775;
+    padding: 15px ;
+    margin: 0;
+    font-weight: 500;
+}
+.like-cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fbf775;
+    color: #244e86;
+}
+.like-card{
+    width: 370px;
+    margin: 15px 20px 0;
+    padding: 20px 10px;
+    transition: all .2s ease-in-out;
+
+}
+.like-card i{
+    font-size: 70px;
+    font-weight: 600;
+}
+.like-card h2{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.like-card p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.like-card:hover{
+    transform: scale(1.04);
+
+}
+/* WHAT WILL YOU LIKE END */
+
+
+/* CONTACT US BEGIN */
+.contact-us-container{
+    background-color: #244e86;
+    text-align: center;
+}
+.contact-us-bottom{ 
+   padding-bottom: 50px;
+}
+.contact-us-bottom h1{
+    color: #fbf775;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 50px 50px 10px;
+}
+.contact-us-bottom a{
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fbf775;
+    border: #fbf775 1px solid;
+    border-radius: 8px;
+    padding: 10px 25px;
+    text-align: center;
+}
+.contact-us-bottom a:hover{
+    color: #244e86;
+    background-color: #fbf775;
+    border-color: #244e86;
+    transition: 0.5s;
+}
+/* CONTACT US END */
