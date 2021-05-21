@@ -27,6 +27,7 @@ header{
     display: inline-block;
     width: 100%;
     padding: 0px 80px;
+    margin-bottom: -4px;
     background-color: #092c5c;
     position: relative;
 }
@@ -181,7 +182,7 @@ footer{
     line-height: 1.5;
     color: whitesmoke;
     text-align: left;
-    padding: 100px 50px;
+   margin: 150px 0;
     max-width: 100%;
 }
 

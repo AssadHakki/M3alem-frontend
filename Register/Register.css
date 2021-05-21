@@ -28,6 +28,7 @@ header{
     width: 100%;
     padding: 0px 80px;
     background-color: #092c5c;
+    margin: 0 0 -4px;
     position: relative;
 }
 .logo{
@@ -163,7 +164,7 @@ footer{
 
 
 .register-container{
-    margin: 100px auto;
+    margin: 150px auto;
     
 }
 

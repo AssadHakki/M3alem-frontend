@@ -27,6 +27,7 @@ header{
     display: inline-block;
     width: 100%;
     padding: 0px 80px;
+    margin-bottom: -4px;
     background-color: #092c5c;
     position: relative;
 }
@@ -167,18 +168,14 @@ footer{
 .search-container{
     width: 100%; 
     height: fit-content;
-    /* background-image: url(./../Assets/Images/search-background.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;  */
     background-color: #244e86;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-    margin: 100px 0;
+    margin: 0 0 100px;
+    padding: 55px 0;
 }
 .search-container h2{
     margin-top: 25px;

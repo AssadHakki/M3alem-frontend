@@ -27,6 +27,7 @@ header{
     display: inline-block;
     width: 100%;
     padding: 0px 80px;
+    margin-bottom: -4px;
     background-color: #092c5c;
     position: relative;
 }
