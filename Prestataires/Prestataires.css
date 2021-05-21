@@ -55,6 +55,9 @@ nav ul li a{
 nav ul li a:hover{
     color: #fff952 ;
 }
+#active-tab{
+    color: #fff952 ;
+}
 .toggle-btn{
     display: none;
     position: absolute;
@@ -113,6 +116,8 @@ footer{
     background-color: #092c5c;
     color: whitesmoke;
     width: 100%;
+    margin-top: 90px;
+
 }
 .footer-top-items{
     min-width: 300px;
@@ -177,9 +182,12 @@ footer{
     margin: 0 0 100px;
     padding: 55px 0;
 }
-.search-container h2{
+.search-container h1{
     margin-top: 25px;
     color: #fbf775;
+    border-bottom:1px solid #fbf67548 ;
+    padding: 0 0 30px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 .search-boxes{
@@ -193,7 +201,10 @@ footer{
 .search-profession, .search-ville, .search-btn{
     padding: 0 50px 20px 0;
 }
-
+.search-profession label i, .search-ville label i{
+    color: #fbf775;
+    padding-right: 8px;
+}
 .search-profession label{
     color: whitesmoke;
     line-height: 3 ;

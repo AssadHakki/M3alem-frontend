@@ -55,6 +55,9 @@ nav ul li a{
 nav ul li a:hover{
     color: #fff952 ;
 }
+#active-tab{
+    color: #fff952 ;
+}
 .toggle-btn{
     display: none;
     position: absolute;
